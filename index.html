@@ -3,142 +3,122 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Perfil</title>
+<title>Currículo - Rafael Mai Dubiella</title>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-<!-- Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<!-- Google Fonts - Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins', sans-serif;
-}
-
-body{
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background: linear-gradient(135deg,#1d2671,#c33764);
-}
-
-/* CARD */
-.card{
-    width:350px;
-    background:white;
-    border-radius:20px;
-    padding:30px 25px;
-    text-align:center;
-    box-shadow:0 15px 35px rgba(0,0,0,0.2);
-    animation:fadeUp 0.8s ease;
-}
-
-/* FOTO PERFIL */
-.profile-img{
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    object-fit:cover;
-    border:5px solid #f3f3f3;
-    margin-bottom:15px;
-}
-
-/* NOME */
-.card h2{
-    font-weight:600;
-    margin-bottom:8px;
-    color:#333;
-}
-
-/* DESCRIÇÃO */
-.card p{
-    font-size:14px;
-    color:#777;
-    margin-bottom:25px;
-}
-
-/* BOTÕES SOCIAIS */
-.social-buttons{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-}
-
-.social-buttons a{
-    width:45px;
-    height:45px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border-radius:50%;
-    color:white;
-    font-size:18px;
-    text-decoration:none;
-    transition:0.3s;
-}
-
-/* CORES REDES */
-.github{ background:#333; }
-.linkedin{ background:#0a66c2; }
-.instagram{ background:#e1306c; }
-.whatsapp{ background:#25d366; }
-
-.social-buttons a:hover{
-    transform:translateY(-5px);
-    box-shadow:0 8px 15px rgba(0,0,0,0.3);
-}
-
-/* ANIMAÇÃO */
-@keyframes fadeUp{
-    from{
-        opacity:0;
-        transform:translateY(40px);
+    body{
+        margin:0;
+        font-family: 'Poppins', sans-serif;
+        background:#f2f2f2;
     }
-    to{
-        opacity:1;
-        transform:translateY(0);
+
+    .header{
+        background: linear-gradient(90deg,#4b3df0,#6a5af9);
+        color:white;
+        padding:30px;
+        display:flex;
+        align-items:center;
+        gap:30px;
     }
-}
+
+    .foto{
+        width:130px;
+        height:130px;
+        border-radius:50%;
+        background:url('sua-foto.jpg') center/cover;
+        border:4px solid white;
+    }
+
+    .header-info h1{
+        margin:0;
+        font-size:28px;
+        letter-spacing:1px;
+        font-weight:700;
+    }
+
+    .contato{
+        margin-top:10px;
+        font-size:15px;
+        font-weight:400;
+    }
+
+    .container{
+        padding:30px 60px;
+    }
+
+    .section-title{
+        background:#4b3df0;
+        color:white;
+        display:inline-block;
+        padding:8px 15px;
+        font-weight:600;
+        margin:20px 0 10px 0;
+    }
+
+    .info p{
+        margin:5px 0;
+        font-weight:400;
+    }
+
+    ul{
+        margin:5px 0 5px 20px;
+        font-weight:400;
+    }
+
+    strong{
+        font-weight:600;
+    }
 </style>
 </head>
 
 <body>
 
-<div class="card">
+<div class="header">
+    <div class="foto"></div>
 
-    <!-- FOTO -->
-    <img src="profile-img.jpeg" alt="Foto Perfil" class="profile-img">
+    <div class="header-info">
+        <h1>RAFAEL MAI DUBIELLA</h1>
+        <div class="contato">
+            📞 47 99118 9066 <br>
+            ✉️ rafael.mai.dubiella@gmail.com
+        </div>
+    </div>
+</div>
 
-    <!-- NOME -->
-    <h2>Seu Nome</h2>
+<div class="container">
 
-    <!-- DESCRIÇÃO -->
-    <p>Desenvolvedor apaixonado por tecnologia, inovação e criação de soluções modernas.</p>
+    <div class="section-title">INFORMAÇÕES PESSOAIS</div>
+    <div class="info">
+        <p><strong>Endereço –</strong> Rua Evilazio Cirilo – Nº31 – Águas Claras – Brusque – SC</p>
+        <p><strong>Filiação –</strong> Valquiria Mai Dubiella – Alvacir Dubiella</p>
+        <p><strong>CPF –</strong> 082.709.319-50</p>
+        <p><strong>RG –</strong> 7.617.934</p>
+        <p><strong>Data de nascimento –</strong> 18/05/2007</p>
+    </div>
 
-    <!-- REDES -->
-    <div class="social-buttons">
+    <div class="section-title">EXPERIÊNCIA PROFISSIONAL</div>
+    <ul>
+        <li>Menor Aprendiz SESI/SENAI 2022/2023 – Assistente Administrativo</li>
+    </ul>
 
-        <a href="#" class="github" target="_blank">
-            <i class="fab fa-github"></i>
-        </a>
+    <div class="section-title">FORMAÇÃO ACADÊMICA</div>
+    <div class="info">
+        <p><strong>Ensino Médio Completo –</strong> 2024 E.E.B João XXIII</p>
+        <p><strong>Curso EAD Uniaselvi –</strong> 2022 – 10 horas – Edição de vídeos, Premiere</p>
+        <p><strong>Curso EAD Uniaselvi –</strong> 2022 – 10 horas – Edição de imagens, Photoshop</p>
+        <p><strong>Curso EAD Uniaselvi –</strong> 2022 – 10 horas – Design Thinking</p>
+        <p><strong>Ensino Fundamental –</strong> Concluído – 2021 – SESI/SENAI</p>
+        <p><strong>Curso presencial SENAI –</strong> 2019 – Design de jogos</p>
+        <p><strong>Curso de vendas da CDL –</strong> 2023 – Concluído</p>
+        <p><strong>Técnico em Desenvolvimento de Sistemas SENAI –</strong> 2025 – Cursando</p>
+    </div>
 
-        <a href="#" class="linkedin" target="_blank">
-            <i class="fab fa-linkedin"></i>
-        </a>
-
-        <a href="#" class="instagram" target="_blank">
-            <i class="fab fa-instagram"></i>
-        </a>
-
-        <a href="#" class="whatsapp" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-
+    <div class="section-title">OBJETIVO</div>
+    <div class="info">
+        <p>Experiência de trabalho e aprendizado</p>
     </div>
 
 </div>
