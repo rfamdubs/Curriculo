@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfil</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(135deg,#1d2671,#c33764);
+}
+
+/* CARD */
+.card{
+    width:350px;
+    background:white;
+    border-radius:20px;
+    padding:30px 25px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,0.2);
+    animation:fadeUp 0.8s ease;
+}
+
+/* FOTO PERFIL */
+.profile-img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #f3f3f3;
+    margin-bottom:15px;
+}
+
+/* NOME */
+.card h2{
+    font-weight:600;
+    margin-bottom:8px;
+    color:#333;
+}
+
+/* DESCRIÇÃO */
+.card p{
+    font-size:14px;
+    color:#777;
+    margin-bottom:25px;
+}
+
+/* BOTÕES SOCIAIS */
+.social-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.social-buttons a{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    color:white;
+    font-size:18px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+/* CORES REDES */
+.github{ background:#333; }
+.linkedin{ background:#0a66c2; }
+.instagram{ background:#e1306c; }
+.whatsapp{ background:#25d366; }
+
+.social-buttons a:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 15px rgba(0,0,0,0.3);
+}
+
+/* ANIMAÇÃO */
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- FOTO -->
+    <img src="profile-img.jpeg" alt="Foto Perfil" class="profile-img">
+
+    <!-- NOME -->
+    <h2>Seu Nome</h2>
+
+    <!-- DESCRIÇÃO -->
+    <p>Desenvolvedor apaixonado por tecnologia, inovação e criação de soluções modernas.</p>
+
+    <!-- REDES -->
+    <div class="social-buttons">
+
+        <a href="#" class="github" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#" class="linkedin" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="#" class="instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#" class="whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
