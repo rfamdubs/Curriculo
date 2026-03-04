@@ -4,7 +4,7 @@ Este repositório contém o código-fonte do meu currículo desenvolvido em **HT
 
 ## 👨‍💻 Sobre
 
-O objetivo deste projeto é disponibilizar meu currículo em formato web, facilitando o acesso, compartilhamento e visualização online.
+Uma demonstração simples do meu urriculo.
 
 O layout foi desenvolvido com foco em:
 
@@ -28,7 +28,7 @@ O layout foi desenvolvido com foco em:
 
 O currículo possui:
 
-* Foto de perfil
+* Espaço para foto de perfil
 * Informações pessoais
 * Experiência profissional
 * Formação acadêmica
@@ -60,7 +60,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 ## 📌 Objetivo Profissional
 
-Estou em constante busca por aprendizado e crescimento na área de tecnologia, especialmente em desenvolvimento de sistemas.
+Aprmimorar meus conhecimentos nas tecnologias ja utilizadas no mercado, e conhecer tecnologiaas novas.
 
 ---
 
