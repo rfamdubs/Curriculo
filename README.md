@@ -48,7 +48,7 @@ O currículo possui:
 
 ## 📌 Objetivo Profissional
 
-Aprmimorar meus conhecimentos nas tecnologias ja utilizadas no mercado, e conhecer tecnologiaas novas.
+Aprimorar meus conhecimentos nas tecnologias ja utilizadas no mercado, e conhecer tecnologiaas novas.
 
 ---
 
