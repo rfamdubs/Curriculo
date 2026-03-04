@@ -46,18 +46,6 @@ O currículo possui:
 
 ---
 
-## 🔧 Como utilizar
-
-1. Clone o repositório:
-
-```
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-2. Abra o arquivo `index.html` no navegador.
-
----
-
 ## 📌 Objetivo Profissional
 
 Aprmimorar meus conhecimentos nas tecnologias ja utilizadas no mercado, e conhecer tecnologiaas novas.
