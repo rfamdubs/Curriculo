@@ -54,5 +54,5 @@ Aprimorar meus conhecimentos nas tecnologias ja utilizadas no mercado, e conhece
 
 ## 📞 Contato
 
-📧 Email: [rafael.mai.dubiella@gmail.com](mailto:rafael.mai.dubiella@gmail.com)
+📧 Email: [rafael.mai.dubiella@gmail.com](mailto:rafael.mai.dubiella@gmail.com)<br>
 📱 Telefone: (47) 99118-9066
