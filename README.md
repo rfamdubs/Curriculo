@@ -45,14 +45,3 @@ O currículo possui:
 ```
 
 ---
-
-## 📌 Objetivo Profissional
-
-Aprimorar meus conhecimentos nas tecnologias ja utilizadas no mercado, e conhecer tecnologiaas novas.
-
----
-
-## 📞 Contato
-
-📧 Email: [rafael.mai.dubiella@gmail.com](mailto:rafael.mai.dubiella@gmail.com)<br>
-📱 Telefone: (47) 99118-9066
